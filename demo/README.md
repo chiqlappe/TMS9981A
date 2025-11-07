@@ -12,4 +12,4 @@
 * ```plasma.wav``` プラズマ
 * ```sprite.wav``` スプライト
   
-[ソースプログラムはこちら](https://github.com/jblang/TMS9918A)
+[J.B. Langston氏によるオリジナルプログラムはこちら](https://github.com/jblang/TMS9918A)
