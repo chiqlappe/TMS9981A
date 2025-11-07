@@ -1,0 +1,232 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
+LIBS:mylibrary
+LIBS:VDP-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Ferrite_Bead_Small L1
+U 1 1 65DC6C24
+P 4400 2900
+F 0 "L1" H 4475 2950 50  0000 L CNN
+F 1 "BL01RN1A1D2" H 4475 2850 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4330 2900 50  0001 C CNN
+F 3 "" H 4400 2900 50  0001 C CNN
+	1    4400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Coaxial J2
+U 1 1 65DC6C44
+P 5100 3900
+F 0 "J2" H 5110 4020 50  0000 C CNN
+F 1 "RJ-2410N/Y" V 5215 3900 50  0000 C CNN
+F 2 "library:RJ-2410N" H 5100 3900 50  0001 C CNN
+F 3 "" H 5100 3900 50  0001 C CNN
+	1    5100 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2SC1815 Q1
+U 1 1 65DC6C81
+P 6200 3600
+F 0 "Q1" H 6400 3675 50  0000 L CNN
+F 1 "2SC1815" H 6400 3600 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 6400 3525 50  0001 L CIN
+F 3 "" H 6200 3600 50  0001 L CNN
+	1    6200 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP_Small CP1
+U 1 1 65DC6CB4
+P 4400 3900
+F 0 "CP1" H 4410 3970 50  0000 L CNN
+F 1 "10u" H 4410 3820 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 4400 3900 50  0001 C CNN
+F 3 "" H 4400 3900 50  0001 C CNN
+	1    4400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small CP2
+U 1 1 65DC6CDD
+P 5900 3900
+F 0 "CP2" H 5910 3970 50  0000 L CNN
+F 1 "470u" H 5910 3820 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 5900 3900 50  0001 C CNN
+F 3 "" H 5900 3900 50  0001 C CNN
+	1    5900 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 65DC6D29
+P 6600 4150
+F 0 "R4" V 6680 4150 50  0000 C CNN
+F 1 "470" V 6600 4150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6530 4150 50  0001 C CNN
+F 3 "" H 6600 4150 50  0001 C CNN
+	1    6600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 65DC6D50
+P 6100 4150
+F 0 "R3" V 6180 4150 50  0000 C CNN
+F 1 "180" V 6100 4150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6030 4150 50  0001 C CNN
+F 3 "" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 65DC6D7D
+P 5400 3650
+F 0 "R2" V 5480 3650 50  0000 C CNN
+F 1 "1k" V 5400 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5330 3650 50  0001 C CNN
+F 3 "" H 5400 3650 50  0001 C CNN
+	1    5400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 65DC6E14
+P 4700 3900
+F 0 "C3" H 4710 3970 50  0000 L CNN
+F 1 "0.1u" H 4710 3820 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4700 3900 50  0001 C CNN
+F 3 "" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 65DC718C
+P 5600 4150
+F 0 "R5" V 5680 4150 50  0000 C CNN
+F 1 "2k" V 5600 4150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5530 4150 50  0001 C CNN
+F 3 "" H 5600 4150 50  0001 C CNN
+	1    5600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3900 6100 3900
+Wire Wire Line
+	6100 3800 6100 4000
+Connection ~ 6100 3900
+Wire Wire Line
+	5600 3900 5600 4000
+Wire Wire Line
+	5250 3900 5800 3900
+Connection ~ 5600 3900
+Wire Wire Line
+	5400 3800 5400 3900
+Connection ~ 5400 3900
+Wire Wire Line
+	5100 4500 5100 4100
+Wire Wire Line
+	6600 4500 6600 4300
+Wire Wire Line
+	6100 4500 6100 4300
+Connection ~ 6100 4500
+Connection ~ 5600 4500
+Wire Wire Line
+	6400 3600 7300 3600
+Connection ~ 6600 3600
+Wire Wire Line
+	4400 3000 4400 3800
+Connection ~ 4400 3200
+Wire Wire Line
+	6100 3200 6100 3400
+Wire Wire Line
+	4400 3200 6100 3200
+Wire Wire Line
+	5400 3500 5400 3200
+Connection ~ 5400 3200
+Wire Wire Line
+	4700 3800 4700 3200
+Connection ~ 4700 3200
+Wire Wire Line
+	4400 4000 4400 4700
+Connection ~ 5100 4500
+Wire Wire Line
+	4700 4000 4700 4500
+Connection ~ 4700 4500
+$Comp
+L VCC #PWR014
+U 1 1 65DC78B2
+P 4400 2800
+F 0 "#PWR014" H 4400 2650 50  0001 C CNN
+F 1 "VCC" H 4400 2950 50  0000 C CNN
+F 2 "" H 4400 2800 50  0001 C CNN
+F 3 "" H 4400 2800 50  0001 C CNN
+	1    4400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 65DC78F2
+P 4400 4700
+F 0 "#PWR015" H 4400 4450 50  0001 C CNN
+F 1 "GND" H 4400 4550 50  0000 C CNN
+F 2 "" H 4400 4700 50  0001 C CNN
+F 3 "" H 4400 4700 50  0001 C CNN
+	1    4400 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4500 5600 4300
+Connection ~ 4400 4500
+Wire Wire Line
+	6600 3600 6600 4000
+Text GLabel 7300 3600 2    60   Input ~ 0
+COMVID
+Wire Wire Line
+	4400 4500 6600 4500
+$EndSCHEMATC
